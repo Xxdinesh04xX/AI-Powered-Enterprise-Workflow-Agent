@@ -1,0 +1,931 @@
+2025-08-11 10:45:22 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 10:45:22 | INFO     | __main__:main:22 | Starting database initialization...
+2025-08-11 10:45:22 | ERROR    | src.database.connection:create_tables:82 | Failed to create database tables: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 10:45:22 | ERROR    | src.database.connection:init_database:134 | Database initialization failed: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 10:45:22 | ERROR    | __main__:main:26 | Database initialization failed: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 10:46:15 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 10:46:15 | INFO     | __main__:main:22 | Starting database initialization...
+2025-08-11 10:46:15 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 10:46:15 | INFO     | src.database.connection:_create_initial_data:186 | Initial data created successfully
+2025-08-11 10:46:15 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 10:46:15 | INFO     | __main__:main:24 | Database initialization completed successfully!
+2025-08-11 10:57:56 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 10:59:43 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:00:50 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:00:54 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:184 | Starting classification accuracy testing...
+2025-08-11 11:00:54 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:191 | Generated 21 test cases
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:201 | Testing rule_based strategy...
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | src.core.classification:classify:142 | Classifying text using rule_based strategy
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:278 | rule_based Results:
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:279 |   Category Accuracy: 38.10%
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:280 |   Priority Accuracy: 47.62%
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:281 |   Overall Accuracy: 19.05%
+2025-08-11 11:00:54 | INFO     | __main__:test_classification_accuracy:303 | Classification accuracy report saved to reports\classification_accuracy_report.json
+2025-08-11 11:02:28 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:02:32 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:184 | Starting classification accuracy testing...
+2025-08-11 11:02:32 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:191 | Generated 21 test cases
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:201 | Testing rule_based strategy...
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | src.core.classification:classify:171 | Classifying text using rule_based strategy
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:278 | rule_based Results:
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:279 |   Category Accuracy: 76.19%
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:280 |   Priority Accuracy: 47.62%
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:281 |   Overall Accuracy: 38.10%
+2025-08-11 11:02:32 | INFO     | __main__:test_classification_accuracy:303 | Classification accuracy report saved to reports\classification_accuracy_report.json
+2025-08-11 11:04:56 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:102 | Starting assignment engine testing...
+2025-08-11 11:04:56 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:04:56 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:04:56 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:107 | Database initialized successfully
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:116 | Generated 9 test tasks
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:130 | Testing skill_based strategy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using skill_based strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using skill_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using skill_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using skill_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:182 |   skill_based Results:
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 66.67%
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.40
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:130 | Testing workload_based strategy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 1: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 1: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 2: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 2: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 3: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 3: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 4: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 4: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 5: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 5: Assignment failed - Assignment failed: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 6: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 6: Assignment failed - Assignment failed: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using workload_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:182 |   workload_based Results:
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 0.00%
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.00
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:130 | Testing round_robin strategy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using round_robin strategy
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using round_robin strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using round_robin strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using round_robin strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:182 |   round_robin Results:
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 66.67%
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.80
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:130 | Testing priority_based strategy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 1: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 1: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 2: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 2: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 3: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 3: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 4: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 4: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 5: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 5: Assignment failed - Assignment failed: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 6: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 6: Assignment failed - Assignment failed: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using priority_based strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:182 |   priority_based Results:
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 0.00%
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.00
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:130 | Testing hybrid strategy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.48)
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using hybrid strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using hybrid strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using hybrid strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:182 |   hybrid Results:
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 66.67%
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.48
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_strategies:210 | Assignment engine report saved to reports\assignment_engine_report.json
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_accuracy:217 | Testing assignment accuracy...
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 101 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 101 to team 1
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 101: Correctly assigned to team 1
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 102 using hybrid strategy
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy workload_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | WARNING  | src.core.assignment:_assign_hybrid:407 | Strategy priority_based failed in hybrid assignment: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 102 to team 5
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 102: Correctly assigned to team 5
+2025-08-11 11:04:56 | INFO     | src.core.assignment:assign_task:97 | Assigning task 103 using hybrid strategy
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 103: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_accuracy:277 | ❌ Task 103: Assignment error - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | INFO     | __main__:test_assignment_accuracy:281 | Assignment Accuracy: 66.67% (2/3)
+2025-08-11 11:06:21 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:06:21 | INFO     | src.database.connection:drop_tables:89 | Database tables dropped successfully
+2025-08-11 11:06:21 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:06:21 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:06:21 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:06:51 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:06:51 | ERROR    | src.database.connection:get_session:103 | Database session error: 'Operations' is not among the defined enum values. Enum name: taskcategory. Possible values: IT, HR, OPERATIONS
+2025-08-11 11:07:10 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:07:10 | INFO     | __main__:main:22 | Starting database initialization...
+2025-08-11 11:07:11 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:07:11 | INFO     | src.database.connection:_create_initial_data:186 | Initial data created successfully
+2025-08-11 11:07:11 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:07:11 | INFO     | __main__:main:24 | Database initialization completed successfully!
+2025-08-11 11:07:20 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:07:20 | ERROR    | src.database.connection:get_session:103 | Database session error: 'Operations' is not among the defined enum values. Enum name: taskcategory. Possible values: IT, HR, OPERATIONS
+2025-08-11 11:13:44 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:13:44 | INFO     | __main__:main:22 | Starting database initialization...
+2025-08-11 11:13:44 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:13:44 | INFO     | src.database.connection:_create_initial_data:196 | Initial data created successfully
+2025-08-11 11:13:44 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:13:44 | INFO     | __main__:main:24 | Database initialization completed successfully!
+2025-08-11 11:13:51 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:13:59 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:102 | Starting assignment engine testing...
+2025-08-11 11:13:59 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:13:59 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:13:59 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:107 | Database initialized successfully
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:116 | Generated 9 test tasks
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:130 | Testing skill_based strategy...
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using skill_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:182 |   skill_based Results:
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.40
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:130 | Testing workload_based strategy...
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using workload_based strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:182 |   workload_based Results:
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.90
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:130 | Testing round_robin strategy...
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using round_robin strategy
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:13:59 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:13:59 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using round_robin strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using round_robin strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using round_robin strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:182 |   round_robin Results:
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.80
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:130 | Testing priority_based strategy...
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using priority_based strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:182 |   priority_based Results:
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.85
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:130 | Testing hybrid strategy...
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:182 |   hybrid Results:
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.86
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_strategies:210 | Assignment engine report saved to reports\assignment_engine_report.json
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_accuracy:217 | Testing assignment accuracy...
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 101 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 101 to team 1
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 101: Correctly assigned to team 1
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 102 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 102 to team 5
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 102: Correctly assigned to team 5
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:97 | Assigning task 103 using hybrid strategy
+2025-08-11 11:14:00 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 103 to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 103: Correctly assigned to team 9
+2025-08-11 11:14:00 | INFO     | __main__:test_assignment_accuracy:281 | Assignment Accuracy: 100.00% (3/3)
+2025-08-11 11:19:23 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:19:53 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:19:53 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:19:53 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:19:53 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:19:53 | INFO     | __main__:main:283 | Database initialized
+2025-08-11 11:19:53 | INFO     | __main__:create_sample_tasks:30 | Creating sample tasks for report testing...
+2025-08-11 11:19:53 | INFO     | __main__:create_sample_tasks:120 | Created 8 sample tasks
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:130 | Testing analytics generation...
+2025-08-11 11:19:53 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 05:49:53.675716 to 2025-08-11 05:49:53.675716
+2025-08-11 11:19:53 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:53 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:53 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:155 | Analytics generated successfully:
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:156 |   Total tasks: 0
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:157 |   Completion rate: 0.0%
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:158 |   Insights count: 1
+2025-08-11 11:19:53 | INFO     | __main__:test_analytics_generation:159 |   Recommendations count: 2
+2025-08-11 11:19:53 | INFO     | __main__:test_report_generators:170 | Testing report generators...
+2025-08-11 11:19:53 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\test_report_json.json
+2025-08-11 11:19:53 | INFO     | __main__:test_report_generators:221 | ✅ JSON report generated: reports\test_report_json.json
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\test_report_html.html
+2025-08-11 11:19:55 | INFO     | __main__:test_report_generators:221 | ✅ HTML report generated: reports\test_report_html.html
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:488 | PDF report generated: reports\test_report_pdf.pdf
+2025-08-11 11:19:55 | INFO     | __main__:test_report_generators:221 | ✅ PDF report generated: reports\test_report_pdf.pdf
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:235 | Testing comprehensive report generation...
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating daily report...
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:57 | Generating daily report with formats: ['html', 'json']
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-10 05:49:55.281468 to 2025-08-11 05:49:55.281468
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\daily_report_20250810.html
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\daily_report_20250810.html
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\daily_report_20250810.json
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\daily_report_20250810.json
+2025-08-11 11:19:55 | INFO     | src.database.operations:create_report:277 | Created report 1: Daily Workflow Report - 2025-08-10
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 1
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ daily report generated successfully
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating weekly report...
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:57 | Generating weekly report with formats: ['html', 'json']
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 05:49:55.510383 to 2025-08-11 05:49:55.510383
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\weekly_report_20250804_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\weekly_report_20250804_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\weekly_report_20250804_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\weekly_report_20250804_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.database.operations:create_report:277 | Created report 2: Weekly Workflow Report - Week of 2025-08-04
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 2
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ weekly report generated successfully
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating monthly report...
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:57 | Generating monthly report with formats: ['html', 'json']
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-07-12 05:49:55.736259 to 2025-08-11 05:49:55.736259
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\monthly_report_20250712_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\monthly_report_20250712_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\monthly_report_20250712_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\monthly_report_20250712_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.database.operations:create_report:277 | Created report 3: Monthly Workflow Report - July 2025
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 3
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ monthly report generated successfully
+2025-08-11 11:19:55 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating performance report...
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:57 | Generating performance report with formats: ['html', 'json']
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 05:49:55.962517 to 2025-08-11 05:49:55.962517
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\performance_report_20250804_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\performance_report_20250804_to_20250811.html
+2025-08-11 11:19:55 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\performance_report_20250804_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\performance_report_20250804_to_20250811.json
+2025-08-11 11:19:55 | INFO     | src.database.operations:create_report:277 | Created report 4: Performance Analysis Report - 2025-08-04 to 2025-08-11
+2025-08-11 11:19:56 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 4
+2025-08-11 11:19:56 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ performance report generated successfully
+2025-08-11 11:26:25 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:26:32 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:27:08 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:27:15 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:27:15 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:27:15 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:27:15 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:27:15 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:27:15 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:27:15 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:27:20 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:27:22 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:27:29 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:27:29 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:27:29 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:27:29 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:27:29 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:27:29 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:27:29 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:27:31 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:27:34 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:27:41 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:27:41 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:27:41 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:27:41 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:27:41 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:27:41 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:27:41 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:28:02 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:28:09 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:28:09 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:28:09 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:28:09 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:28:09 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:28:09 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:28:09 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:28:29 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:28:29 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:28:54 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:28:57 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:29:03 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:29:04 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:29:04 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:29:04 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:29:04 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:29:04 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:29:04 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:29:04 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:29:04 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:57:54 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:58:02 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 11:58:02 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:58:02 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:58:02 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:58:02 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:58:02 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 11:58:02 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 11:59:06 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 11:59:11 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:102 | Starting assignment engine testing...
+2025-08-11 11:59:11 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:59:11 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:59:11 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:107 | Database initialized successfully
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:116 | Generated 9 test tasks
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:130 | Testing skill_based strategy...
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using skill_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.40)
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:182 |   skill_based Results:
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.40
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:130 | Testing workload_based strategy...
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using workload_based strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.90)
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:182 |   workload_based Results:
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.90
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:130 | Testing round_robin strategy...
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using round_robin strategy
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:59:11 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:59:11 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using round_robin strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.80)
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:182 |   round_robin Results:
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.80
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:130 | Testing priority_based strategy...
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using priority_based strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.85)
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:182 |   priority_based Results:
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.85
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:130 | Testing hybrid strategy...
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 1 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 1 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 1: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 2 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 2 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 2: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 3 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 3 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 3: Assigned to team 1 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 4 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 4 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 4: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 5 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 5 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 5: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 6 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 6 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 6: Assigned to team 5 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 7 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 7 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 7: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 8 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 8 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 8: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 9 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 9 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:157 |   Task 9: Assigned to team 9 (confidence: 0.86)
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:182 |   hybrid Results:
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:183 |     Success Rate: 100.00%
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:184 |     Average Confidence: 0.86
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_strategies:210 | Assignment engine report saved to reports\assignment_engine_report.json
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_accuracy:217 | Testing assignment accuracy...
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 101 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 101 to team 1
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 101: Correctly assigned to team 1
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 102 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 102 to team 5
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 102: Correctly assigned to team 5
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:97 | Assigning task 103 using hybrid strategy
+2025-08-11 11:59:12 | INFO     | src.core.assignment:assign_task:123 | Successfully assigned task 103 to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_accuracy:272 | ✅ Task 103: Correctly assigned to team 9
+2025-08-11 11:59:12 | INFO     | __main__:test_assignment_accuracy:281 | Assignment Accuracy: 100.00% (3/3)
+2025-08-11 11:59:16 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 11:59:16 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 11:59:16 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 11:59:16 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 11:59:16 | INFO     | __main__:main:283 | Database initialized
+2025-08-11 11:59:16 | INFO     | __main__:create_sample_tasks:30 | Creating sample tasks for report testing...
+2025-08-11 11:59:16 | INFO     | __main__:create_sample_tasks:120 | Created 8 sample tasks
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:130 | Testing analytics generation...
+2025-08-11 11:59:16 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 06:29:16.197304 to 2025-08-11 06:29:16.197304
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:16 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:155 | Analytics generated successfully:
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:156 |   Total tasks: 0
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:157 |   Completion rate: 0.0%
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:158 |   Insights count: 1
+2025-08-11 11:59:16 | INFO     | __main__:test_analytics_generation:159 |   Recommendations count: 2
+2025-08-11 11:59:16 | INFO     | __main__:test_report_generators:170 | Testing report generators...
+2025-08-11 11:59:16 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\test_report_json.json
+2025-08-11 11:59:16 | INFO     | __main__:test_report_generators:221 | ✅ JSON report generated: reports\test_report_json.json
+2025-08-11 11:59:16 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\test_report_html.html
+2025-08-11 11:59:16 | INFO     | __main__:test_report_generators:221 | ✅ HTML report generated: reports\test_report_html.html
+2025-08-11 11:59:16 | INFO     | src.reports.generators:generate:488 | PDF report generated: reports\test_report_pdf.pdf
+2025-08-11 11:59:16 | INFO     | __main__:test_report_generators:221 | ✅ PDF report generated: reports\test_report_pdf.pdf
+2025-08-11 11:59:16 | INFO     | __main__:test_comprehensive_report_generation:235 | Testing comprehensive report generation...
+2025-08-11 11:59:16 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating daily report...
+2025-08-11 11:59:16 | INFO     | src.reports.manager:generate_report:57 | Generating daily report with formats: ['html', 'json']
+2025-08-11 11:59:16 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-10 06:29:16.714724 to 2025-08-11 06:29:16.714724
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:16 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:59:16 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\daily_report_20250810.html
+2025-08-11 11:59:16 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\daily_report_20250810.html
+2025-08-11 11:59:16 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\daily_report_20250810.json
+2025-08-11 11:59:16 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\daily_report_20250810.json
+2025-08-11 11:59:16 | INFO     | src.database.operations:create_report:277 | Created report 5: Daily Workflow Report - 2025-08-10
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 5
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ daily report generated successfully
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating weekly report...
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:57 | Generating weekly report with formats: ['html', 'json']
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 06:29:17.014592 to 2025-08-11 06:29:17.014592
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\weekly_report_20250804_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\weekly_report_20250804_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\weekly_report_20250804_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\weekly_report_20250804_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.database.operations:create_report:277 | Created report 6: Weekly Workflow Report - Week of 2025-08-04
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 6
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ weekly report generated successfully
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating monthly report...
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:57 | Generating monthly report with formats: ['html', 'json']
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-07-12 06:29:17.279322 to 2025-08-11 06:29:17.279322
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\monthly_report_20250712_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\monthly_report_20250712_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\monthly_report_20250712_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\monthly_report_20250712_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.database.operations:create_report:277 | Created report 7: Monthly Workflow Report - July 2025
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 7
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ monthly report generated successfully
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:246 | Generating performance report...
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:57 | Generating performance report with formats: ['html', 'json']
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:41 | Generating analytics for period 2025-08-04 06:29:17.544343 to 2025-08-11 06:29:17.544343
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:17 | INFO     | src.reports.analytics:generate_comprehensive_analytics:81 | Comprehensive analytics generated successfully
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:116 | HTML report generated: reports\performance_report_20250804_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated html report: reports\performance_report_20250804_to_20250811.html
+2025-08-11 11:59:17 | INFO     | src.reports.generators:generate:73 | JSON report generated: reports\performance_report_20250804_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:87 | Generated json report: reports\performance_report_20250804_to_20250811.json
+2025-08-11 11:59:17 | INFO     | src.database.operations:create_report:277 | Created report 8: Performance Analysis Report - 2025-08-04 to 2025-08-11
+2025-08-11 11:59:17 | INFO     | src.reports.manager:generate_report:110 | Report generation completed successfully. Report ID: 8
+2025-08-11 11:59:17 | INFO     | __main__:test_comprehensive_report_generation:262 | ✅ performance report generated successfully
+2025-08-11 12:00:37 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:00:45 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 12:00:45 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:00:45 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:00:45 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:00:45 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:00:45 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 12:00:45 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 12:00:50 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:06:30 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:06:30 | INFO     | __main__:main:22 | Starting database initialization...
+2025-08-11 12:06:30 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:06:30 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:06:30 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:06:30 | INFO     | __main__:main:24 | Database initialization completed successfully!
+2025-08-11 12:06:51 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:06:59 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 12:06:59 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:06:59 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:06:59 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:06:59 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:06:59 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 12:06:59 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 12:07:52 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:07:52 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:21:30 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:21:34 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:21:42 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 12:21:42 | INFO     | src.api.main:startup_event:91 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:21:42 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:21:42 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:21:42 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:21:42 | INFO     | src.api.main:startup_event:96 | Database initialized successfully
+2025-08-11 12:21:42 | INFO     | src.api.main:startup_event:99 | API server started successfully on version 1.0.0
+2025-08-11 12:21:42 | INFO     | src.api.main:shutdown_event:108 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:26:19 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:26:27 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 12:26:27 | INFO     | src.api.main:startup_event:98 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:26:27 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:26:27 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:26:27 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:26:27 | INFO     | src.api.main:startup_event:103 | Database initialized successfully
+2025-08-11 12:26:27 | INFO     | src.api.main:startup_event:106 | API server started successfully on version 1.0.0
+2025-08-11 12:26:42 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:26:42 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:26:42 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:26:42 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-11 12:26:57 | INFO     | src.api.main:shutdown_event:115 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:27:00 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-11 12:27:08 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-11 12:27:08 | INFO     | src.api.main:startup_event:98 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-11 12:27:08 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-11 12:27:08 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-11 12:27:08 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-11 12:27:08 | INFO     | src.api.main:startup_event:103 | Database initialized successfully
+2025-08-11 12:27:08 | INFO     | src.api.main:startup_event:106 | API server started successfully on version 1.0.0
+2025-08-11 12:27:08 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:27:08 | ERROR    | src.api.main:health_check:158 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:27:09 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:27:09 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:27:09 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:27:09 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-11 12:29:14 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:29:14 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:29:14 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:29:14 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-12 07:26:33 | INFO     | src.database.connection:_initialize_engine:68 | Database engine initialized with URL: sqlite:///./data/workflow_agent.db
+2025-08-12 07:26:56 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-12 07:26:56 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:26:56 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:26:56 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-12 07:26:57 | WARNING  | src.nlp.text_processor:_load_spacy_model:72 | spaCy model 'en_core_web_sm' not found. Some features may be limited.
+2025-08-12 07:26:57 | INFO     | src.api.main:startup_event:98 | Starting AI-Powered Enterprise Workflow Agent API...
+2025-08-12 07:26:57 | INFO     | src.database.connection:create_tables:80 | Database tables created successfully
+2025-08-12 07:26:57 | INFO     | src.database.connection:_create_initial_data:145 | Initial data already exists, skipping creation
+2025-08-12 07:26:57 | INFO     | src.database.connection:init_database:132 | Database initialization completed successfully
+2025-08-12 07:26:57 | INFO     | src.api.main:startup_event:103 | Database initialized successfully
+2025-08-12 07:26:57 | INFO     | src.api.main:startup_event:106 | API server started successfully on version 1.0.0
+2025-08-12 07:27:17 | INFO     | src.api.main:shutdown_event:115 | Shutting down AI-Powered Enterprise Workflow Agent API...
+2025-08-12 07:27:21 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-12 07:27:21 | ERROR    | src.api.main:health_check:158 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-12 07:27:21 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-12 07:27:21 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:27:21 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:27:21 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable

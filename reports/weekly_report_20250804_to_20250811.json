@@ -1,0 +1,59 @@
+{
+  "title": "Weekly Workflow Report - Week of 2025-08-04",
+  "executive_summary": "Weekly workflow summary: 0 tasks processed (0.0 per day average) with 0.0% completion rate. IT category was most active with 0 tasks. ",
+  "key_metrics": {
+    "total_tasks": 0,
+    "completion_rate": "0.0%",
+    "daily_average": 0.0,
+    "status_distribution": {
+      "pending": 0,
+      "in_progress": 0,
+      "completed": 0,
+      "failed": 0,
+      "cancelled": 0
+    },
+    "category_distribution": {
+      "IT": 0,
+      "HR": 0,
+      "Operations": 0
+    },
+    "priority_distribution": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "agent_performance": {},
+    "category_performance": {}
+  },
+  "insights": [
+    "IT category dominates with 0 tasks"
+  ],
+  "recommendations": [
+    "Consider reviewing task assignment strategies to improve completion rates",
+    "Investigate bottlenecks in the workflow process"
+  ],
+  "trends": [
+    {
+      "metric": "Category Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Category distribution remains relatively stable"
+    },
+    {
+      "metric": "Priority Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Priority distribution shows no significant changes"
+    }
+  ],
+  "risk_areas": [
+    "Low task completion rate may impact business operations"
+  ],
+  "performance_highlights": [],
+  "metadata": {
+    "generated_at": "2025-08-11T06:29:17.263270",
+    "format": "json",
+    "generator": "JSONReportGenerator"
+  }
+}

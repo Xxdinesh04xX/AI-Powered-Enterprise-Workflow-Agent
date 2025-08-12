@@ -1,0 +1,100 @@
+{
+  "title": "Monthly Workflow Report - July 2025",
+  "executive_summary": "Monthly workflow summary: 16 tasks processed (0.5 per day average) with 62.5% completion rate. This report provides comprehensive analysis of workflow performance, trends, and recommendations for optimization. ",
+  "key_metrics": {
+    "total_tasks": 16,
+    "completion_rate": "62.5%",
+    "daily_average": 0.5333333333333333,
+    "status_distribution": {
+      "pending": 2,
+      "in_progress": 4,
+      "completed": 10,
+      "failed": 0,
+      "cancelled": 0
+    },
+    "category_distribution": {
+      "IT": 6,
+      "HR": 6,
+      "Operations": 4
+    },
+    "priority_distribution": {
+      "critical": 2,
+      "high": 4,
+      "medium": 8,
+      "low": 2
+    },
+    "agent_performance": {},
+    "category_performance": {
+      "IT": {
+        "total": 6,
+        "completed": 4,
+        "completion_rate": 0.6666666666666666
+      },
+      "HR": {
+        "total": 6,
+        "completed": 4,
+        "completion_rate": 0.6666666666666666
+      },
+      "Operations": {
+        "total": 4,
+        "completed": 2,
+        "completion_rate": 0.5
+      }
+    },
+    "priority_handling": {
+      "critical": {
+        "total": 2,
+        "completed": 2,
+        "avg_time": 518400.00014250004,
+        "completion_rate": 1.0
+      },
+      "medium": {
+        "total": 8,
+        "completed": 4,
+        "avg_time": 518400.00001375,
+        "completion_rate": 0.5
+      },
+      "high": {
+        "total": 4,
+        "completed": 2,
+        "avg_time": 518400.000009,
+        "completion_rate": 0.5
+      },
+      "low": {
+        "total": 2,
+        "completed": 2,
+        "avg_time": 518400.000008,
+        "completion_rate": 1.0
+      }
+    }
+  },
+  "insights": [
+    "Processed 16 tasks during the reporting period",
+    "IT category dominates with 6 tasks"
+  ],
+  "recommendations": [
+    "Consider reviewing task assignment strategies to improve completion rates",
+    "Investigate bottlenecks in the workflow process"
+  ],
+  "trends": [
+    {
+      "metric": "Category Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Category distribution remains relatively stable"
+    },
+    {
+      "metric": "Priority Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Priority distribution shows no significant changes"
+    }
+  ],
+  "risk_areas": [],
+  "performance_highlights": [],
+  "metadata": {
+    "generated_at": "2025-08-11T06:29:17.528286",
+    "format": "json",
+    "generator": "JSONReportGenerator"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Daily Workflow Report - 2025-08-10",
+  "executive_summary": "Daily workflow summary: 0 tasks processed with 0.0% completion rate. Performance below target with opportunities for improvement. ",
+  "key_metrics": {
+    "total_tasks": 0,
+    "completion_rate": "0.0%",
+    "status_distribution": {
+      "pending": 0,
+      "in_progress": 0,
+      "completed": 0,
+      "failed": 0,
+      "cancelled": 0
+    },
+    "category_distribution": {
+      "IT": 0,
+      "HR": 0,
+      "Operations": 0
+    },
+    "priority_distribution": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "average_processing_time": "0.0 minutes"
+  },
+  "insights": [
+    "IT category dominates with 0 tasks"
+  ],
+  "recommendations": [
+    "Consider reviewing task assignment strategies to improve completion rates",
+    "Investigate bottlenecks in the workflow process"
+  ],
+  "trends": [
+    {
+      "metric": "Category Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Category distribution remains relatively stable"
+    },
+    {
+      "metric": "Priority Distribution",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Priority distribution shows no significant changes"
+    }
+  ],
+  "risk_areas": [
+    "Low task completion rate may impact business operations"
+  ],
+  "performance_highlights": [],
+  "metadata": {
+    "generated_at": "2025-08-11T06:29:16.989172",
+    "format": "json",
+    "generator": "JSONReportGenerator"
+  }
+}

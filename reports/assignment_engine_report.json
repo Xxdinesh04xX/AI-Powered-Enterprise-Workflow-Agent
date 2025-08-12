@@ -1,0 +1,824 @@
+{
+  "test_timestamp": "2025-08-11T06:29:12.131774",
+  "test_tasks_count": 9,
+  "strategies_tested": 5,
+  "strategy_results": {
+    "skill_based": {
+      "success_rate": 1.0,
+      "average_confidence": 0.39999999999999997,
+      "successful_assignments": 9,
+      "total_tasks": 9,
+      "assignments": [
+        {
+          "task_id": 1,
+          "task_title": "Database Performance Issue",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.4,
+          "reasoning": "Assigned to DevOps Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 2,
+          "task_title": "Server Maintenance",
+          "task_category": "IT",
+          "task_priority": "Medium",
+          "assigned_team_id": 1,
+          "confidence": 0.4,
+          "reasoning": "Assigned to DevOps Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 3,
+          "task_title": "Network Security Audit",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.4,
+          "reasoning": "Assigned to DevOps Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 4,
+          "task_title": "New Employee Onboarding",
+          "task_category": "HR",
+          "task_priority": "Medium",
+          "assigned_team_id": 5,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Recruitment Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 5,
+          "task_title": "Payroll Processing Issue",
+          "task_category": "HR",
+          "task_priority": "Critical",
+          "assigned_team_id": 5,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Recruitment Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 6,
+          "task_title": "Training Program Development",
+          "task_category": "HR",
+          "task_priority": "Low",
+          "assigned_team_id": 5,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Recruitment Team based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 7,
+          "task_title": "Vendor Contract Renewal",
+          "task_category": "Operations",
+          "task_priority": "High",
+          "assigned_team_id": 9,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Project Management based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 8,
+          "task_title": "Quality Audit Report",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Project Management based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 9,
+          "task_title": "Budget Planning Meeting",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.4,
+          "reasoning": "Assigned to Project Management based on skill matching (score: 0.40)",
+          "factors_considered": [
+            "skill_matching",
+            "team_availability",
+            "priority_weight"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        }
+      ]
+    },
+    "workload_based": {
+      "success_rate": 1.0,
+      "average_confidence": 0.9000000000000001,
+      "successful_assignments": 9,
+      "total_tasks": 9,
+      "assignments": [
+        {
+          "task_id": 1,
+          "task_title": "Database Performance Issue",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.9,
+          "reasoning": "Assigned to DevOps Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 2,
+          "task_title": "Server Maintenance",
+          "task_category": "IT",
+          "task_priority": "Medium",
+          "assigned_team_id": 1,
+          "confidence": 0.9,
+          "reasoning": "Assigned to DevOps Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 3,
+          "task_title": "Network Security Audit",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.9,
+          "reasoning": "Assigned to DevOps Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 4,
+          "task_title": "New Employee Onboarding",
+          "task_category": "HR",
+          "task_priority": "Medium",
+          "assigned_team_id": 5,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Recruitment Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 5,
+          "task_title": "Payroll Processing Issue",
+          "task_category": "HR",
+          "task_priority": "Critical",
+          "assigned_team_id": 5,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Recruitment Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 6,
+          "task_title": "Training Program Development",
+          "task_category": "HR",
+          "task_priority": "Low",
+          "assigned_team_id": 5,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Recruitment Team for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 7,
+          "task_title": "Vendor Contract Renewal",
+          "task_category": "Operations",
+          "task_priority": "High",
+          "assigned_team_id": 9,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Project Management for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 8,
+          "task_title": "Quality Audit Report",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Project Management for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 9,
+          "task_title": "Budget Planning Meeting",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.9,
+          "reasoning": "Assigned to Project Management for optimal workload distribution",
+          "factors_considered": [
+            "workload_balance",
+            "team_capacity",
+            "task_priority",
+            "team_efficiency"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        }
+      ]
+    },
+    "round_robin": {
+      "success_rate": 1.0,
+      "average_confidence": 0.7999999999999999,
+      "successful_assignments": 9,
+      "total_tasks": 9,
+      "assignments": [
+        {
+          "task_id": 1,
+          "task_title": "Database Performance Issue",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.8,
+          "reasoning": "Assigned to DevOps Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 2,
+          "task_title": "Server Maintenance",
+          "task_category": "IT",
+          "task_priority": "Medium",
+          "assigned_team_id": 1,
+          "confidence": 0.8,
+          "reasoning": "Assigned to DevOps Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 3,
+          "task_title": "Network Security Audit",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.8,
+          "reasoning": "Assigned to DevOps Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 4,
+          "task_title": "New Employee Onboarding",
+          "task_category": "HR",
+          "task_priority": "Medium",
+          "assigned_team_id": 5,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Recruitment Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 5,
+          "task_title": "Payroll Processing Issue",
+          "task_category": "HR",
+          "task_priority": "Critical",
+          "assigned_team_id": 5,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Recruitment Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 6,
+          "task_title": "Training Program Development",
+          "task_category": "HR",
+          "task_priority": "Low",
+          "assigned_team_id": 5,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Recruitment Team using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 7,
+          "task_title": "Vendor Contract Renewal",
+          "task_category": "Operations",
+          "task_priority": "High",
+          "assigned_team_id": 9,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Project Management using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 8,
+          "task_title": "Quality Audit Report",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Project Management using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 9,
+          "task_title": "Budget Planning Meeting",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.8,
+          "reasoning": "Assigned to Project Management using round-robin (lowest load: 0)",
+          "factors_considered": [
+            "current_workload",
+            "team_availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        }
+      ]
+    },
+    "priority_based": {
+      "success_rate": 1.0,
+      "average_confidence": 0.8499999999999999,
+      "successful_assignments": 9,
+      "total_tasks": 9,
+      "assignments": [
+        {
+          "task_id": 1,
+          "task_title": "Database Performance Issue",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.85,
+          "reasoning": "Assigned to DevOps Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 2,
+          "task_title": "Server Maintenance",
+          "task_category": "IT",
+          "task_priority": "Medium",
+          "assigned_team_id": 1,
+          "confidence": 0.85,
+          "reasoning": "Assigned to DevOps Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 3,
+          "task_title": "Network Security Audit",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.85,
+          "reasoning": "Assigned to DevOps Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 4,
+          "task_title": "New Employee Onboarding",
+          "task_category": "HR",
+          "task_priority": "Medium",
+          "assigned_team_id": 5,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Recruitment Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 5,
+          "task_title": "Payroll Processing Issue",
+          "task_category": "HR",
+          "task_priority": "Critical",
+          "assigned_team_id": 5,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Recruitment Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 6,
+          "task_title": "Training Program Development",
+          "task_category": "HR",
+          "task_priority": "Low",
+          "assigned_team_id": 5,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Recruitment Team based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 7,
+          "task_title": "Vendor Contract Renewal",
+          "task_category": "Operations",
+          "task_priority": "High",
+          "assigned_team_id": 9,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Project Management based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 8,
+          "task_title": "Quality Audit Report",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Project Management based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        },
+        {
+          "task_id": 9,
+          "task_title": "Budget Planning Meeting",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.85,
+          "reasoning": "Assigned to Project Management based on priority matching for medium task",
+          "factors_considered": [
+            "task_priority",
+            "team_priority_weight",
+            "availability"
+          ],
+          "alternatives_count": 3,
+          "success": true
+        }
+      ]
+    },
+    "hybrid": {
+      "success_rate": 1.0,
+      "average_confidence": 0.8600000000000001,
+      "successful_assignments": 9,
+      "total_tasks": 9,
+      "assignments": [
+        {
+          "task_id": 1,
+          "task_title": "Database Performance Issue",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to DevOps Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 2,
+          "task_title": "Server Maintenance",
+          "task_category": "IT",
+          "task_priority": "Medium",
+          "assigned_team_id": 1,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to DevOps Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 3,
+          "task_title": "Network Security Audit",
+          "task_category": "IT",
+          "task_priority": "High",
+          "assigned_team_id": 1,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to DevOps Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 4,
+          "task_title": "New Employee Onboarding",
+          "task_category": "HR",
+          "task_priority": "Medium",
+          "assigned_team_id": 5,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Recruitment Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 5,
+          "task_title": "Payroll Processing Issue",
+          "task_category": "HR",
+          "task_priority": "Critical",
+          "assigned_team_id": 5,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Recruitment Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 6,
+          "task_title": "Training Program Development",
+          "task_category": "HR",
+          "task_priority": "Low",
+          "assigned_team_id": 5,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Recruitment Team (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 7,
+          "task_title": "Vendor Contract Renewal",
+          "task_category": "Operations",
+          "task_priority": "High",
+          "assigned_team_id": 9,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Project Management (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 8,
+          "task_title": "Quality Audit Report",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Project Management (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        },
+        {
+          "task_id": 9,
+          "task_title": "Budget Planning Meeting",
+          "task_category": "Operations",
+          "task_priority": "Medium",
+          "assigned_team_id": 9,
+          "confidence": 0.86,
+          "reasoning": "Hybrid assignment to Project Management (strategies: skill_based, workload_based, priority_based)",
+          "factors_considered": [
+            "skill_matching",
+            "workload_balance",
+            "priority_alignment",
+            "multi_strategy_consensus"
+          ],
+          "alternatives_count": 1,
+          "success": true
+        }
+      ]
+    }
+  },
+  "engine_statistics": {
+    "total_assignments": 45,
+    "successful_assignments": 45,
+    "failed_assignments": 0,
+    "assignments_by_strategy": {
+      "skill_based": {
+        "total": 9,
+        "successful": 9
+      },
+      "workload_based": {
+        "total": 9,
+        "successful": 9
+      },
+      "round_robin": {
+        "total": 9,
+        "successful": 9
+      },
+      "priority_based": {
+        "total": 9,
+        "successful": 9
+      },
+      "hybrid": {
+        "total": 9,
+        "successful": 9
+      }
+    },
+    "assignments_by_category": {
+      "IT": {
+        "total": 15,
+        "successful": 15
+      },
+      "HR": {
+        "total": 15,
+        "successful": 15
+      },
+      "Operations": {
+        "total": 15,
+        "successful": 15
+      }
+    },
+    "average_confidence": 0.7620000000000001,
+    "success_rate": 1.0
+  },
+  "test_summary": {
+    "best_strategy": "skill_based",
+    "highest_confidence": "workload_based",
+    "overall_success": true
+  }
+}

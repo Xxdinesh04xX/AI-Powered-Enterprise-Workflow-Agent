@@ -1,0 +1,107 @@
+2025-08-11 10:45:22 | ERROR    | src.database.connection:create_tables:82 | Failed to create database tables: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 10:45:22 | ERROR    | src.database.connection:init_database:134 | Database initialization failed: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 10:45:22 | ERROR    | __main__:main:26 | Database initialization failed: Attribute name 'metadata' is reserved when using the Declarative API.
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 1: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 1: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 2: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 2: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 3: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 3: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 4: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 4: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 5: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 5: Assignment failed - Assignment failed: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 6: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 6: Assignment failed - Assignment failed: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 1: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 1: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 2: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 2: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 3: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 3: Assignment failed - Assignment failed: 'High' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 4: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 4: Assignment failed - Assignment failed: 'Medium' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 5: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 5: Assignment failed - Assignment failed: 'Critical' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 6: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 6: Assignment failed - Assignment failed: 'Low' is not a valid TaskPriority
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 7: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 7: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 8: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 8: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 9: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_strategies:160 |   Task 9: Assignment failed - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | src.core.assignment:assign_task:128 | Assignment failed for task 103: No available teams found for category: Operations
+2025-08-11 11:04:56 | ERROR    | __main__:test_assignment_accuracy:277 | ❌ Task 103: Assignment error - Assignment failed: No available teams found for category: Operations
+2025-08-11 11:06:51 | ERROR    | src.database.connection:get_session:103 | Database session error: 'Operations' is not among the defined enum values. Enum name: taskcategory. Possible values: IT, HR, OPERATIONS
+2025-08-11 11:07:20 | ERROR    | src.database.connection:get_session:103 | Database session error: 'Operations' is not among the defined enum values. Enum name: taskcategory. Possible values: IT, HR, OPERATIONS
+2025-08-11 11:19:53 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:53 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:19:55 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:28:29 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:28:29 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:29:04 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:29:04 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:16 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_generate_recommendations:299 | Failed to generate recommendations: division by zero
+2025-08-11 11:59:17 | ERROR    | src.reports.analytics:_identify_risk_areas:346 | Failed to identify risk areas: division by zero
+2025-08-11 12:07:52 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:07:52 | ERROR    | src.api.main:health_check:145 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:26:42 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:26:42 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:26:42 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:26:42 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-11 12:27:08 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:27:08 | ERROR    | src.api.main:health_check:158 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-11 12:27:09 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:27:09 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:27:09 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:27:09 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-11 12:29:14 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-11 12:29:14 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:29:14 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-11 12:29:14 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-12 07:26:56 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-12 07:26:56 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:26:56 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:26:56 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable
+2025-08-12 07:27:21 | ERROR    | src.database.connection:get_session:103 | Database session error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-12 07:27:21 | ERROR    | src.api.main:health_check:158 | Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-08-12 07:27:21 | ERROR    | src.api.routers.tasks:list_tasks:110 | Failed to list tasks: 'medium' is not a valid TaskPriorityAPI
+2025-08-12 07:27:21 | ERROR    | src.database.connection:get_session:103 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:27:21 | ERROR    | src.api.dependencies:get_db_session:38 | Database session error: 500: Failed to retrieve tasks
+2025-08-12 07:27:21 | ERROR    | src.api.main:general_exception_handler:335 | Unhandled exception: Object of type datetime is not JSON serializable

@@ -1,0 +1,45 @@
+{
+  "title": "Test Report",
+  "executive_summary": "This is a test report to validate the report generation system.",
+  "key_metrics": {
+    "total_tasks": 10,
+    "completion_rate": "80%",
+    "status_distribution": {
+      "completed": 8,
+      "pending": 2
+    },
+    "category_distribution": {
+      "IT": 5,
+      "HR": 3,
+      "Operations": 2
+    }
+  },
+  "insights": [
+    "High completion rate indicates efficient processing",
+    "IT category dominates the workload",
+    "No critical issues identified"
+  ],
+  "recommendations": [
+    "Continue current workflow processes",
+    "Monitor IT workload for potential bottlenecks",
+    "Consider cross-training for better load distribution"
+  ],
+  "trends": [
+    {
+      "metric": "Task Volume",
+      "direction": "stable",
+      "significance": "low",
+      "description": "Task volume remains consistent"
+    }
+  ],
+  "risk_areas": [],
+  "performance_highlights": [
+    "Excellent completion rate of 80%",
+    "Fast average processing time"
+  ],
+  "metadata": {
+    "generated_at": "2025-08-11T06:29:16.244371",
+    "format": "json",
+    "generator": "JSONReportGenerator"
+  }
+}

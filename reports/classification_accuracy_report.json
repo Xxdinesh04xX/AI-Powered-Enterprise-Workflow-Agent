@@ -1,0 +1,300 @@
+{
+  "test_timestamp": "2025-08-11T05:32:32.927388",
+  "test_dataset_size": 21,
+  "strategy_results": {
+    "rule_based": {
+      "category_accuracy": 0.7619047619047619,
+      "priority_accuracy": 0.47619047619047616,
+      "overall_accuracy": 0.38095238095238093,
+      "total_tests": 21,
+      "correct_category": 16,
+      "correct_priority": 10,
+      "correct_both": 8,
+      "details": [
+        {
+          "title": "Production Server Outage",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "critical",
+          "expected_priority": "critical",
+          "confidence": 0.7120242214532871,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Security Breach Alert",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "critical",
+          "expected_priority": "critical",
+          "confidence": 0.3691448801742919,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Application Performance Issue",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "high",
+          "expected_priority": "high",
+          "confidence": 0.2032469698654509,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Email System Problems",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "critical",
+          "expected_priority": "high",
+          "confidence": 0.156389725461717,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Software Update Request",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "medium",
+          "expected_priority": "medium",
+          "confidence": 0.2942906574394463,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Network Configuration",
+          "predicted_category": "HR",
+          "expected_category": "IT",
+          "predicted_priority": "medium",
+          "expected_priority": "medium",
+          "confidence": 0.09270250031886575,
+          "category_correct": false,
+          "priority_correct": true,
+          "both_correct": false
+        },
+        {
+          "title": "Documentation Update",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "medium",
+          "expected_priority": "low",
+          "confidence": 0.20631487889273353,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Workplace Safety Incident",
+          "predicted_category": "HR",
+          "expected_category": "HR",
+          "predicted_priority": "medium",
+          "expected_priority": "critical",
+          "confidence": 0.2585764598908039,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Urgent Recruitment Need",
+          "predicted_category": "IT",
+          "expected_category": "HR",
+          "predicted_priority": "critical",
+          "expected_priority": "high",
+          "confidence": 0.48931821094450845,
+          "category_correct": false,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Payroll Discrepancy",
+          "predicted_category": "HR",
+          "expected_category": "HR",
+          "predicted_priority": "critical",
+          "expected_priority": "high",
+          "confidence": 0.05439952437574316,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Employee Onboarding",
+          "predicted_category": "HR",
+          "expected_category": "HR",
+          "predicted_priority": "critical",
+          "expected_priority": "medium",
+          "confidence": 0.13269916765755052,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Performance Review Process",
+          "predicted_category": "HR",
+          "expected_category": "HR",
+          "predicted_priority": "medium",
+          "expected_priority": "medium",
+          "confidence": 0.4598764035235693,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Employee Handbook Update",
+          "predicted_category": "IT",
+          "expected_category": "HR",
+          "predicted_priority": "medium",
+          "expected_priority": "low",
+          "confidence": 0.25852076124567475,
+          "category_correct": false,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Supply Chain Disruption",
+          "predicted_category": "Operations",
+          "expected_category": "Operations",
+          "predicted_priority": "critical",
+          "expected_priority": "critical",
+          "confidence": 0.5397347209468422,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Client Contract Renewal",
+          "predicted_category": "Operations",
+          "expected_category": "Operations",
+          "predicted_priority": "high",
+          "expected_priority": "high",
+          "confidence": 0.7246280991735536,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Budget Overrun Alert",
+          "predicted_category": "Operations",
+          "expected_category": "Operations",
+          "predicted_priority": "medium",
+          "expected_priority": "high",
+          "confidence": 0.10697103148502958,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Process Optimization",
+          "predicted_category": "Operations",
+          "expected_category": "Operations",
+          "predicted_priority": "medium",
+          "expected_priority": "medium",
+          "confidence": 0.1389779519002545,
+          "category_correct": true,
+          "priority_correct": true,
+          "both_correct": true
+        },
+        {
+          "title": "Vendor Evaluation",
+          "predicted_category": "Operations",
+          "expected_category": "Operations",
+          "predicted_priority": "high",
+          "expected_priority": "medium",
+          "confidence": 0.13219203549500852,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Office Space Planning",
+          "predicted_category": "HR",
+          "expected_category": "Operations",
+          "predicted_priority": "low",
+          "expected_priority": "low",
+          "confidence": 0.08975492138987977,
+          "category_correct": false,
+          "priority_correct": true,
+          "both_correct": false
+        },
+        {
+          "title": "IT-HR System Integration",
+          "predicted_category": "IT",
+          "expected_category": "IT",
+          "predicted_priority": "high",
+          "expected_priority": "medium",
+          "confidence": 0.17493814633603916,
+          "category_correct": true,
+          "priority_correct": false,
+          "both_correct": false
+        },
+        {
+          "title": "Operational IT Support",
+          "predicted_category": "Operations",
+          "expected_category": "IT",
+          "predicted_priority": "critical",
+          "expected_priority": "medium",
+          "confidence": 0.07669421487603305,
+          "category_correct": false,
+          "priority_correct": false,
+          "both_correct": false
+        }
+      ]
+    }
+  },
+  "system_statistics": {
+    "overall_accuracy": 0.38095238095238093,
+    "total_classifications": 21,
+    "accuracy_by_strategy": {
+      "rule_based": {
+        "total": 21,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "accuracy_by_category": {
+      "IT": {
+        "total": 9,
+        "correct": 7,
+        "accuracy": 0.7777777777777778
+      },
+      "HR": {
+        "total": 6,
+        "correct": 4,
+        "accuracy": 0.6666666666666666
+      },
+      "Operations": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      }
+    },
+    "accuracy_by_priority": {
+      "critical": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      },
+      "high": {
+        "total": 6,
+        "correct": 2,
+        "accuracy": 0.3333333333333333
+      },
+      "medium": {
+        "total": 8,
+        "correct": 4,
+        "accuracy": 0.5
+      },
+      "low": {
+        "total": 3,
+        "correct": 1,
+        "accuracy": 0.3333333333333333
+      }
+    }
+  },
+  "accuracy_target": 0.9,
+  "target_met": false
+}
