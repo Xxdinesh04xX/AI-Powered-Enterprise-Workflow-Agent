@@ -83,7 +83,10 @@ Smooth animations for a delightful experience
 
 
 How to start it
+
 1)pip install fastapi uvicorn sqlalchemy jinja2 requests pydantic
+
 2)Initialize the Database : python scripts/init_db.py
+
 3) Open the Interface : http://127.0.0.1:8000
 
